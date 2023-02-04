@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero{
+    background: url('/11/sun.jpg.jpg');
+    height: 600px;
+    background-position: top left;
+    width: 100%;
+    padding: 5px;
+}
+
+#hero_text{
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Seymour One', sans-serif;
+
+}
+header{
+    background-color: #8ea7e9;
+    padding: 8px 16px;
+}
+.navbar{
+    display: inline-block;
+    width: 100% --150px;
+    float: right;
+}
+.navbar_items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar_item{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header_logo{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 20px; 
+}
+.navbar_item a{
+    color: white;
+    text-decoration: none;
+}
+.navbar_item a:hover {
+    color: #FFD4D4;
+}
+.navbar_item a:active{
+    color: white;
+}
+.navbar_item_contact{
+    background-color: #7286D3;
+    padding: 4px 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+}
+.navbar_item_contact a:hover{
+    background-color: lightgray;
+    color: #7286D3;
+    border: 1px solid red;
+}
+
+#work{
+    padding: 100px 10px;
+    text-align: center;
+    
+}
+.row{
+    margin-bottom: 40px;
+}
+#work h2{
+    color: #7286D3;
+    font-size: 30px;
+}
+.col-3{
+    display: inline-block;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.icon h3{
+    color: #7286D3;
+    font-size: 26px;
+}
+.icon span{
+    color: #D3756B;
+    font-size: 60px;
+    font-weight: bold;
+}
+.col-2{
+    display: inline-block;
+    width: 48%;
+    height: 350px;
+    background-color: #FFD4D4;
+    margin-bottom: 50px;
+}
+.experience_left{
+    background: url(/11/code.jpg.jpg);
+    background-size: cover;
+    
+}
+.experience_right{
+    padding: 30px;
+    vertical-align: top;
+    margin: auto;
+    text-align: center;
+}
+#experience a{
+    background-color:wheat ;
+    color: #7286D3;
+    padding: 6px 15px ;
+    border: 1px solid #7286D3;
+    border-radius: 8px;
+    text-decoration: none;
+}
+#experience a:hover{
+    background-color:#7286D3 ;
+    color: #fff;
+    padding: 6px 15px ;
+    border: 1px solid #7286D3;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#experience p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+#experience h3{
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    
+}
